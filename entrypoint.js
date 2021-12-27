@@ -21,8 +21,10 @@ async function run() {
   const branches = parseInput(core.getInput('branches', { required: false }));
   const plugins = parseInput(core.getInput('plugins', { required: false }));
   const extendsInput = parseInput(core.getInput('extends', { required: false }));
+
   let dryRun = core.getInput('dry_run', { required: false });
   dryRun = dryRun !== '' ? dryRun === 'true' : '';
+
   const repositoryUrl = core.getInput('repository_url', { required: false });
   const tagFormat = core.getInput('tag_format', { required: false });
 
