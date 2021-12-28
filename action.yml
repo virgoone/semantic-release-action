@@ -1,8 +1,8 @@
-name: 'Semantic Release Action'
+name: 'Release & Publish Action'
 description:
   'Runs `semantic-release`. Respects .releaserc.js in your repo. Exports version variables for you
   to use in subsequent actions.'
-author: 'codfish'
+author: 'virgoone'
 branding:
   icon: 'arrow-up-right'
   color: 'orange'
